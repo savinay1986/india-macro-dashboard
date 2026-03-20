@@ -35,7 +35,7 @@ export default async function Home() {
 
   const formatCAD = (v: number) => {
     const b = v / 1_000_000_000;
-    return `${b >= 0 ? "+" : ""}$${Math.abs(b).toFixed(0)}B`;
+    return `${b >= 0 ? "+$" : "-$"}${Math.abs(b).toFixed(0)}B`;
   };
 
   return (
