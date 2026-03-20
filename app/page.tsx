@@ -3,6 +3,7 @@ export const revalidate = 86400; // ISR: regenerate every 24 hours
 import { INDICATORS } from "@/lib/indicators";
 import { fetchIndicator, type DataPoint } from "@/lib/worldbank";
 import { parseSurvey } from "@/lib/survey";
+import { formatCAD } from "@/lib/format";
 import surveyRaw from "@/data/survey-summary-2025-26.json";
 import IndicatorChart from "@/components/IndicatorChart";
 import SurveyCard from "@/components/SurveyCard";
@@ -32,11 +33,6 @@ export default async function Home() {
   const latestGDP = gdpData.filter((d) => d.value !== null).at(-1);
   const latestCPI = cpiData.filter((d) => d.value !== null).at(-1);
   const latestCAD = cadData.filter((d) => d.value !== null).at(-1);
-
-  const formatCAD = (v: number) => {
-    const b = v / 1_000_000_000;
-    return `${b >= 0 ? "+$" : "-$"}${Math.abs(b).toFixed(0)}B`;
-  };
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-10">

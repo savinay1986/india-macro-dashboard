@@ -1,4 +1,5 @@
 import { describe, it, expect } from "vitest";
+import { formatCAD } from "../lib/format";
 
 // Regression: ISSUE-001 — headline Current Account Balance showed "$32B" instead of "-$32B" for negative values
 // Found by /qa on 2026-03-20
@@ -7,12 +8,6 @@ import { describe, it, expect } from "vitest";
 // Root cause: formatCAD in app/page.tsx used `${b >= 0 ? "+" : ""}${Math.abs(b).toFixed(0)}B`
 // which dropped the "$" prefix and the negative sign for negative values.
 // Fix: `${b >= 0 ? "+$" : "-$"}${Math.abs(b).toFixed(0)}B`
-
-// Extracted formatCAD logic (mirrors app/page.tsx)
-function formatCAD(v: number): string {
-  const b = v / 1_000_000_000;
-  return `${b >= 0 ? "+$" : "-$"}${Math.abs(b).toFixed(0)}B`;
-}
 
 describe("formatCAD (headline Current Account formatter)", () => {
   it("shows negative sign and dollar prefix for negative values", () => {
