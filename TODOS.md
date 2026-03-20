@@ -20,6 +20,10 @@
 - **Accessibility audit**: Run axe-core; fix color contrast ratios and keyboard navigation gaps; ensure screen reader labels on all charts
   **Priority:** P3
 
+- **Mobile headline stats responsive layout**: `grid-cols-3` in `app/page.tsx` is fixed on all screen sizes — on 375px mobile the three stat cards (~109px each) become cramped and labels wrap. Add `grid-cols-1 sm:grid-cols-3` or similar responsive breakpoint.
+  Found by /qa on feature/initial-dashboard, 2026-03-20
+  **Priority:** P3
+
 ### P4 — Integration Testing
 - **Server component integration tests**: Add playwright/cypress tests for the full page render — all 5 indicators fail gracefully, survey error banner shows on schema failure
   **Priority:** P4
