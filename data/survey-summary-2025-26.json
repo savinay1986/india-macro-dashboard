@@ -1,0 +1,49 @@
+{
+  "survey": "India Economic Survey 2025-26",
+  "published": "January 29, 2026",
+  "authored_by": "V. Anantha Nageswaran, Chief Economic Adviser, Government of India",
+  "generated_by": "claude-sonnet-4-6 (via Claude Code)",
+  "pages_extracted": 40,
+  "takeaways": [
+    {
+      "headline": "India's growth potential revised up to 7%",
+      "detail": "The Survey formally revises India's potential growth rate to 7.0%, up from 6.5% estimated three years ago. The economy is anticipated to record real growth above 7% for FY2025-26, making it the fastest-growing major economy, driven by infrastructure expansion, sustained domestic reforms, and improved logistics."
+    },
+    {
+      "headline": "First major credit rating upgrade in two decades",
+      "detail": "India received three sovereign credit rating upgrades in 2025: Morningstar DBRS (May), S&P (August, from BBB- to BBB), and R&I (September). S&P's upgrade was India's first from a major agency in nearly 20 years, reflecting improved fiscal credibility and macroeconomic fundamentals."
+    },
+    {
+      "headline": "Fiscal deficit beat target: 4.8% vs 4.9% budgeted",
+      "detail": "The Union government achieved a fiscal deficit of 4.8% of GDP against the budgeted 4.9%, and set a target of 4.4% for FY26. This fulfills a 2021 commitment to reduce the deficit by more than half from the pandemic peak of 9.2% in FY21, demonstrating sustained fiscal consolidation."
+    },
+    {
+      "headline": "US hit India with 50% total tariffs on merchandise exports",
+      "detail": "The US imposed 25% reciprocal tariffs on Indian goods in April 2025, then added another 25% penal tariff in August — bringing total tariffs to 50% on most Indian merchandise exports to the US. India-EU FTA concluded after 3 years of negotiations to offset this, expanding market access for labour-intensive manufactured goods."
+    },
+    {
+      "headline": "Rupee underperformed despite strongest macro fundamentals in decades",
+      "detail": "Despite strong growth, tamed inflation, healthy bank balance sheets, and record forex reserves, the rupee weakened in 2025, reflecting India's structural dependence on foreign capital to finance its current account deficit. The Survey describes the rupee as 'punching below its weight' given India's macro strength."
+    },
+    {
+      "headline": "Services exports grew faster than goods: 9.4% vs 6.4% CAGR",
+      "detail": "India's total exports grew at a 9.4% CAGR since 2020, but merchandise exports grew at only 6.4%. Services have done the heavy lifting, but the Survey warns this is not sustainable — countries with durable currency strength are historically manufacturing exporters, not services-led. Manufacturing exports remain the structural imperative."
+    },
+    {
+      "headline": "State fiscal populism threatening sovereign borrowing costs",
+      "detail": "India's 10-year bond yield is 6.7%, while Indonesia's is 6.3%, despite both having the same BBB credit rating. The Survey argues that rising revenue deficits and unconditional cash transfers by State governments are casting a shadow on sovereign borrowing costs as global investors assess general government (not just Union) fiscal health."
+    },
+    {
+      "headline": "Gold surged from $2,607 to $5,101 — a geopolitical alarm signal",
+      "detail": "Gold rose from USD 2,607 to USD 4,315 per ounce during 2025, and reached USD 5,101 by January 26, 2026. The Survey interprets this as financial markets pricing in geopolitical fragility, weakening dollar expectations, persistently negative real rates, and growing concern about systemic risks from leveraged AI infrastructure investment."
+    },
+    {
+      "headline": "Three global scenarios for 2026: none are risk-free for India",
+      "detail": "The Survey assigns equal 40-45% probability to 'managed disorder' (like 2025 but more fragile) and 'disorderly multipolar breakdown' (escalating trade coercion, unravelling alliances), with a 10-20% tail risk of systemic shock cascade from AI investment bubble and geopolitical escalation converging. In all three, India is relatively better-off but not insulated."
+    },
+    {
+      "headline": "Infrastructure doubles down: airports, waterways, deregulation",
+      "detail": "India's airport network doubled over the past decade. Freight movement through inland waterways grew rapidly. Four labour codes were notified, insurance sector opened to 100% FDI, nuclear power generation opened to private sector, and the most radical GST overhaul since 2017 was passed — signalling a new phase of structural reform momentum."
+    }
+  ]
+}
