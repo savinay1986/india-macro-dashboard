@@ -33,20 +33,21 @@ app/page.tsx (Server Component, ISR 24h)
 ```bash
 npm install --legacy-peer-deps
 npm run dev       # http://localhost:3000
-npm test          # 29 Vitest tests
+npm test          # 32 Vitest tests
 npm run build     # production build
 ```
 
 ## Testing
 
-29 Vitest + @testing-library/react tests across 5 files:
+32 Vitest + @testing-library/react tests across 6 files:
 
 ```
-__tests__/worldbank.test.ts       — API parsing, error paths
-__tests__/indicators.test.ts      — value formatters
-__tests__/survey.test.ts          — Zod schema validation
-__tests__/IndicatorChart.test.tsx — render, empty/error states
-__tests__/SurveyCard.test.tsx     — expand/collapse, accessibility
+__tests__/worldbank.test.ts               — API parsing, error paths
+__tests__/indicators.test.ts              — value formatters
+__tests__/survey.test.ts                  — Zod schema validation
+__tests__/IndicatorChart.test.tsx         — render, empty/error states
+__tests__/SurveyCard.test.tsx             — expand/collapse, accessibility
+__tests__/formatCAD.regression-1.test.ts — ISSUE-001 regression (negative CAD sign)
 ```
 
 ## Data sources
