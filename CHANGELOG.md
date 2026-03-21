@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.1.1.0] - 2026-03-21
+
+### Fixed
+- README test count was stale (29 tests / 5 files) — updated to reflect actual suite (32 tests / 6 files including `formatCAD.regression-1.test.ts`)
+
 ## [0.1.0.0] - 2026-03-20
 
 ### Added
